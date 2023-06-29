@@ -1,0 +1,10 @@
+body{ background-color: rgb(139, 183, 233); margin: 0}
+h1 { background-color: gainsboro; padding: 10px; margin: 20px; border: 5px solid black; border-radius: 20px; color: black; text-align: center;}
+#smaller {font-size: 1.4em; background-color: blanchedalmond; width: 50%;}
+.highlight{ background-color: rgb(133, 210, 197); color:black}
+h2{background-color: orange; padding: 10px; margin: 15px; border: 5px solid; border-radius: 10px;}
+h3{background-color: rgb(137, 15, 237); padding: 10px; margin: 15px; border: 5px solid; border-radius: 10px;}
+
+
+
+ 

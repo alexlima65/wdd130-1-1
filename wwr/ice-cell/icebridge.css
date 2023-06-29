@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Gloria+Hallelujah&family=Montserrat:wght@100;300&family=Mulish:wght@300&family=Open+Sans:wght@600&family=Roboto+Slab:wght@300;400;500&display=swap');
+body{
+display: grid;
+grid-template-columns: 1fr 1fr 1fr;
+text-align: center;
+background-color: rgba(30,30,30,255);
+margin-left: 100px;
+margin-right: 100px
+
+}
+
+html{
+margin: 0;
+padding: 0;
+}
+
+#main-container {
+    grid-column: 2/3;
+    background-color: white;
+    border-radius: 25px;
+    overflow: hidden;
+
+}
+
+img {
+width: 100%;
+}
+
+p {
+    font-size: 15px;
+    font-family: 'Roboto Slab', serif;
+    margin-top: 25px;
+    margin-bottom: 0;
+    color: rgb(60,92,139);
+}
+
+h1 {
+font-size: 20px;
+font-weight: normal;
+font-size: normal;
+font-family: 'Roboto Slab', serif;
+color: rgb(123,119,122);
+margin-bottom: 60px;
+padding: 0 40px;
+display: block;
+}
+
+h2{
+    font-weight: bold;
+    font-size: normal;
+    font-family: 'Roboto Slab', serif;
+    font-size: 32px;
+    margin-top: 0;
+    margin-bottom: 30px;
+
+}
+
+#blue-footer {
+    background-color: rgb(60,92,139);
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    color: white;
+    gap: 5px;
+
+} 
+
+#blue-footer h1 {
+    font-size: 25px;
+    font-family: serif;
+    margin-bottom: 0;
+    font-weight: normal;
+    font-size: normal;
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+}
+
+#blue-footer h2 {
+    font-size: 25px;
+    font-family:serif;
+    margin-bottom: 0;
+    font-weight: normal;
+    font-size: normal;
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-right: 10px
+}
+sup {
+font-size: 15px;
+}
+
+#blue-footer h3 {
+    font-size: 25px;
+    font-family: serif;
+    margin-bottom: 0;
+    font-weight: normal;
+    font-size: normal;
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-right: 10px
+}
+
+#blue-footer p {
+    font-size: 15px;
+    font-family: serif;
+    margin-bottom: 0;
+    font-weight: normal;
+    font-size: normal;
+    color: white;
+    text-align: center;
+    margin: 20px;
+    margin-bottom: 10px;
+    margin-left: 8px;
+    margin-right: 10px
+}
+
+#blue-footer > * {
+    border-right: 2px solid rgb(123,119,122);
+}
