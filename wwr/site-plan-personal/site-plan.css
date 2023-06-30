@@ -67,6 +67,7 @@ p {
   font-family: var(--paragraph-font);
   color: var(--paragraph-color-on-white);
   padding: 1em;
+  text-align: justify;
 }
 .colors {
   width: 100%;
@@ -140,6 +141,7 @@ nav a:hover {
 .sitemap > div {
 
   text-align: center;
+  
 
 }
 .sm-home {
