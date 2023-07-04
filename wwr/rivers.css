@@ -105,6 +105,7 @@ h4 {
 h2{
     text-align: justify; 
     margin-top: 5px;
+    color: #6e6b3e;
 
 }
 
@@ -134,14 +135,20 @@ section h2 {
 .rivers-card {
     grid-column: 1/11;
     grid-row: 1/14; 
+    color: #6e6b3e;
 }
 .camping-card {
     grid-column: 1/11;
     grid-row: 20/20;
+    color: #6e6b3e;
+
 }
+
 .rapids-card {
     grid-column: 1/11;
     grid-row: 20/14; 
+    color: #6e6b3e;
+
 }
 #background {
     grid-column: 1/11;
