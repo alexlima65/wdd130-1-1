@@ -110,11 +110,30 @@ h2{
 }
 
 main section { 
-    text-align: center;
     margin-top: 200px;
     margin-bottom: 200px;
     width: 100%;
 }
+.river-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 20px; /* Add margin at the bottom to separate the image and text */
+}
+
+.river-container img {
+    flex: 0 0 50%; /* Adjust the width of the image container */
+    margin-right: 20px; /* Add some spacing between the image and text */
+}
+        
+.river-container div {
+    flex: 1; /* Fill the remaining space with the text container */
+}
+
+.river-container h1 {
+    text-align: center; /* Center-align the name of each river */
+}
+
 main section img {
     width: 100%;
     box-sizing: border-box;
