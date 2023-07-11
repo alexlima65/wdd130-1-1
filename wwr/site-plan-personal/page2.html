@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Analog Archives</title>
+    <link rel="stylesheet" href="page2.css"> 
+</head>
+<body>
+    <header>
+        <a id="logo_link" href="home.html">
+            <img class="logo" src="Yellow Modern Retro Camera Photographer Logo.png" alt="photo logo">
+        </a>
+        <nav>
+            <a href="home.html">Home</a>
+            <a href="page1.html">Film Photography</a>
+            <a href="page2.html">Gallery</a>
+        </nav>
+    </header>
+    <script>
+        function myFunction(imgs) {
+            // Get the expanded image
+            var expandImg = document.getElementById("expandedImg");
+            // Get the image text
+            var imgText = document.getElementById("imgtext");
+            // Use the same src in the expanded image as the image being clicked on from the grid
+            expandImg.src = imgs.src;
+            // Use the value of the alt attribute of the clickable image as text inside the expanded image
+            imgText.innerHTML = imgs.alt;
+            // Show the container element (hidden with CSS)
+            expandImg.parentElement.style.display = "block";
+        }
+    </script>
+</head>
+<body>
+    <h1> Gallery</h1>
+    <h2> Get inspired</h2>
+    <p> Welcome to our Gallery!</p>
+    <p>Step into a world of captivating imagery and timeless beauty. Our gallery showcases a collection of stunning film photographs that capture fleeting moments, evoke emotions, and celebrate the art of analog photography. </p>
+    <p>Each photograph in our gallery has been carefully composed, developed, and scanned, bringing to life the unique aesthetic qualities that only film can offer. From vibrant colors to rich black and white tones, our collection showcases the versatility and artistic expression of film photography.</p>
+    <p>Take a moment to immerse yourself in the artistry and craftsmanship of each photograph. Notice the subtle grain, the delicate textures, and the dynamic range that add depth and character to the images. Feel the nostalgia and sense of timelessness that film photography effortlessly evokes.</p>
+    <div class="gallery">
+        <div class="column">
+            <img src="pexels-inga-seliverstova-3589795.jpg" alt="Camera" onclick="myFunction(this);">
+        </div>
+        <div class="column">
+            <img src="pexels-pixabay-416682.jpg" alt="Photo" onclick="myFunction(this);">
+        </div>
+        <div class="column">
+            <img src="pexels-athena-3550673.jpg" alt="Film" onclick="myFunction(this);">
+        </div>
+        <div class="column">
+            <img src="pexels-markus-spiske-4201333.jpg" alt="Pic" onclick="myFunction(this);">
+        </div>
+        <div class="column">
+            <img src="pexels-barikive-5023288.jpg" alt="Image 1" onclick="myFunction(this);">
+        </div>
+        <div class="column">
+            <img src="pexels-arthouse-studio-5014775.jpg" alt="Image 2" onclick="myFunction(this);">
+        </div>
+        <div class="column">
+            <img src="pexels-inga-seliverstova-3589795.jpg" alt="Camera" onclick="myFunction(this);">
+        </div>
+        <div class="column">
+            <img src="pexels-pixabay-416682.jpg" alt="Photo" onclick="myFunction(this);">
+        </div>
+        <div class="column">
+            <img src="pexels-athena-3550673.jpg" alt="Film" onclick="myFunction(this);">
+        </div>
+        <div class="column">
+            <img src="pexels-markus-spiske-4201333.jpg" alt="Pic" onclick="myFunction(this);">
+        </div>
+        <div class="column">
+            <img src="pexels-lisa-fotios-2437835.jpg" alt="Image 1" onclick="myFunction(this);">
+        </div>
+        <div class="column">
+            <img src="pexels-luca-nardone-5335600.jpg" alt="Image 2" onclick="myFunction(this);">
+        </div>
+        <div class="column">
+            <img src="pexels-lisa-fotios-5593847.jpg" alt="Image 1" onclick="myFunction(this);">
+        </div>
+        <div class="column">
+            <img src="pexels-ozan-çulha-17250951.jpg" alt="Image 2" onclick="myFunction(this);">
+        </div>
+        <div class="column">
+            <img src="pexels-urte-baranauskaite-3229662.jpg" alt="Image 1" onclick="myFunction(this);">
+        </div>
+        <div class="column">
+            <img src="pexels-inga-seliverstova-3589891.jpg" alt="Image 2" onclick="myFunction(this);">
+        </div>
+        <!-- Repeat the above column and image divs for a total of 24 images -->
+    </div>
+    
+    <!-- The expanding image container -->
+    <div class="container">
+        <!-- Close the image -->
+        <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+    
+        <!-- Expanded image -->
+        <img id="expandedImg">
+    
+        <!-- Image text -->
+        <div id="imgtext"></div>
+    </div>
+    <footer>
+        <h3>Analog Archives &copy; 2023 - Alex Lima</h3>
+        <h3><a href="home.html">Home page</a></h3>
+        <h3><a href="#">Contact Us</a></h3>
+        <div class="social">
+            <a href="https://facebook.com"><img src="https://byui-wdd.github.io/wdd130/rafting_images/facebook.png" alt="fb icon"></a>
+            <a href="https://twitter.com"><img src="https://byui-wdd.github.io/wdd130/rafting_images/twitter.png" alt="twitter icon"></a>
+            <a href="https://instagram.com"><img src="https://byui-wdd.github.io/wdd130/rafting_images/instagram.png" alt="instagram icon"></a>
+        </div>
+</body>
+</html>
