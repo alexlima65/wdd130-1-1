@@ -35,6 +35,8 @@ nav a:hover {
     display: flex;
     align-items: center;
     justify-content: center;
+    width: 150px;
+    height: 150px;
 }
 
 .logo img {
